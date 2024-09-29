@@ -1,0 +1,167 @@
+//////////////////////
+	//block
+
+	//added blocks 左bound
+	CreatBlock(0, -3000, -200, 100, 100);
+	CreatBlock(0, -3000, -300, 100, 100);
+	CreatBlock(0, -3000, -400, 100, 100);
+	CreatBlock(0, -3000, -500, 100, 100);
+	CreatBlock(0, -3000, -600, 100, 100);
+	//award
+	CreatItem (0, -3000, -670, 50, 50);
+
+
+	CreatBlock(0, -100, 0, 100, 100);
+	CreatBlock(0, 0, 0, 100, 100);
+	CreatBlock(0, 100, 0, 100, 100);
+	CreatBlock(0, 200, 0, 100, 100);
+	CreatBlock(0, 300, 0, 100, 100);
+
+
+	//柱
+	CreatBlock(0, 500,    0, 100, 100);
+	CreatBlock(0, 500,  100, 100, 100);
+	CreatBlock(0, 500,  200, 100, 100);
+	CreatBlock(0, 500,  300, 100, 100);
+	CreatBlock(0, 500, -100, 100, 100);
+
+	
+	
+
+	CreatBlock(0, 2600, -1200, 100, 100);
+	CreatBlock(0, 2600, -1300, 100, 100);
+	CreatBlock(0, 2600, -1400, 100, 100);
+
+	//award
+	CreatItem( 0, 2600, -1470, 50, 50);
+
+	CreatBlock(0,  -100,    0, 100, 100);
+	CreatBlock(0,  -100,  100, 100, 100);
+	CreatBlock(0,  -100,  200, 100, 100);
+	CreatBlock(0,  -100,  300, 100, 100);
+	CreatBlock(0,  -100, -100, 100, 100);
+
+
+
+	CreatBlock(0,  3000,    0, 100, 100);  
+	CreatBlock(0,  3000,  100, 100, 100);
+	CreatBlock(0,  3000,  200, 100, 100);
+	CreatBlock(0,  3000,  300, 100, 100);
+	CreatBlock(0,  3000, -100, 100, 100);
+
+	CreatBlock(0, -3000, 0, 100, 100);
+	CreatBlock(0, -3000, 100, 100, 100);
+	CreatBlock(0, -3000, 200, 100, 100);
+	CreatBlock(0, -3000, 300, 100, 100);
+	CreatBlock(0, -3000, -100, 100, 100);
+
+
+	//added blocks 右bound
+	CreatBlock(0, 3000, -200, 100, 100);
+	CreatBlock(0, 3000, -300, 100, 100);
+	CreatBlock(0, 3000, -400, 100, 100);
+	CreatBlock(0, 3000, -500, 100, 100);
+	CreatBlock(0, 3000, -600, 100, 100);
+	//award
+	CreatItem(0, 3000, -670, 50, 50);
+
+	//added blocks 右boundのJumpパッドその１
+	CreatBlock(0, 2600, -200, 100, 100);
+	CreatBlock(0, 2600, -300, 100, 100);
+	CreatBlock(0, 2600, -400, 100, 100);
+	CreatBlock(0, 2600, -500, 100, 100);
+	CreatBlock(0, 2600, -600, 100, 100);
+	CreatBlock(0, 2600, -700, 100, 100);
+	CreatBlock(0, 2600, -800, 100, 100);
+	CreatBlock(0, 2600, -900, 100, 100);
+	//award
+	CreatItem(0, 2600, -970, 50, 50);
+
+
+	//float block
+	CreatBlock(0, -2900, -500, 70, 70);
+	CreatBlock(0, -2800, -400, 70, 70);
+	CreatBlock(0, -2600, -200, 70, 70);
+	CreatBlock(0, -2400,    0, 70, 70);
+	CreatBlock(0, -2100,  300, 70, 70);
+	CreatBlock(0, -1900,  100, 70, 70);
+	CreatBlock(0, -1800, -200, 70, 70);
+	CreatBlock(0, -1700, -300, 70, 70);
+	CreatBlock(0, -1500, -400, 70, 70);
+	CreatBlock(0, -1200, -600, 70, 70);
+
+
+	CreatBlock(0, -2000, -200, 70, 70);
+	CreatBlock(0, -1800, -100, 70, 70);
+	CreatBlock(0, -1600, -200, 70, 70);
+	CreatBlock(0, -1400,    0, 70, 70);
+	CreatBlock(0, -1100,  500, 70, 70);
+	CreatBlock(0,  -900,   100, 70, 70);
+	CreatBlock(0,  -800,  -200, 70, 70);
+	CreatBlock(0,  -700,  -400, 70, 70);
+	CreatBlock(0,  -500,  -300, 70, 70);
+	CreatBlock(0,  -200,  -200, 70, 70);
+
+
+	//三角
+	CreatBlock(0, 800, 300, 200, 100);
+	CreatBlock(0, 900, 200, 200, 100);
+	CreatBlock(0, 1000, 100, 200, 100);
+	CreatBlock(0, 1100, 0, 200, 100);
+	CreatBlock(0, 1200, 100, 200, 100);
+	CreatBlock(0, 1300, 200, 200, 100);
+	CreatBlock(0, 1400, 300, 200, 100);
+
+	for (int i = 0; i < 20; i++)
+	{
+		if (i % 10 != 0) {
+			CreatBlock(0, i * 300, 500, 300, 300);
+			CreatBlock(0, -i * 300, 500, 300, 300);
+			CreatBlock(0, i * 300, 800, 300, 300);
+			CreatBlock(0, -i * 300, 800, 300, 300);
+		}
+
+
+	}
+	/////////////////////////////////////////////////
+	/////////////////////////////////////////////////
+	//item
+	//横
+	CreatItem(0,    0, -100, 50, 50);
+	CreatItem(0, -100, -200, 50, 50);
+	CreatItem(0,  100, -100, 50, 50);
+	CreatItem(0,  200, -100, 50, 50);
+	CreatItem(0,  300, -100, 50, 50);
+
+
+	//柱
+	CreatItem(0,  500, -200, 50, 50);
+	CreatItem(0, -700, -470, 50, 50);
+
+
+	//三角
+	CreatItem(0,  750,  200, 50, 50);
+	CreatItem(0,  850,  100, 50, 50);
+	CreatItem(0,  950,    0, 50, 50);
+	CreatItem(0, 1100, -100, 50, 50);
+	CreatItem(0, 1250,    0, 50, 50);
+	CreatItem(0, 1350,  100, 50, 50);
+	CreatItem(0, 1450,  200, 50, 50);
+	/////////////////////////////////////////////////
+	/////////////////////////////////////////////////
+
+	CreatEnemy(0, 200, 0, 100, 100);
+	CreatEnemy(0, 600, 0, 100, 100);
+	CreatEnemy(0, 900, 0, 100, 100);
+	CreatEnemy(0, 1200, 0, 100, 100);
+	CreatEnemy(0, -200, 0, 100, 100);
+	CreatEnemy(0, -400, 0, 100, 100);
+	CreatEnemy(0, -800, 0, 100, 100);
+	CreatEnemy(0, -1200, 0, 100, 100);
+	CreatEnemy(0, -1600, 0, 100, 100);
+
+	CreatLift(0,  2000, 0, 200.0f, 200.0f, 300.0f, 300.0f, 0.01f);
+	CreatLift(0,  3000, 0, 100.0f, 100.0f, 500.0f, 500.0f, 0.01f);
+
+	CreatLift(1, -1000, 0, 200.0f, 200.0f, 200.0f, 200.0f, 0.01f);
+	CreatLift(1, -1500, 0, 100.0f, 100.0f, 600.0f, 600.0f, 0.01f);
